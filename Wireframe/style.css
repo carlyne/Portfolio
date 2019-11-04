@@ -23,6 +23,9 @@ main {
     justify-content: flex-end;
 }
 
+
+/* -- NAVIGATION -- */
+
 .navigation  {
     width: 30%;
     margin-right: 10px;
@@ -34,24 +37,58 @@ main {
     top: 0;
 }
 
-.content {
-    width: 70%;
-    height: auto;
-}
-
-
-/* -- NAVIGATION -- */
-
 .home {
     width: 100%;
     height: 90%;
     background: #f09217;
 }
 
-nav.main-nav {
+.main-nav {
     width: 100%;
     height: 10%;
     background: #f05c17;
+}
+
+
+/* -- GALLERIE -- */
+
+section.content {
+    width: 70%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project01 {
+    width: 350px;
+    height: 200px;
+    background-image: url('../Ressources/img-test.jpg');
+    background-size: cover;
+    background-position: center center; 
+}
+
+.project02 {
+    width: 150px;
+    height: 200px;
+    background-image: url('../Ressources/img-test.jpg');
+    background-size: cover;
+    background-position: center center; 
+}
+
+.project03 {
+    width: 350px;
+    height: 200px;
 }
 
 
