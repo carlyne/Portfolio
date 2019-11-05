@@ -31,9 +31,6 @@ ul {
     list-style: none;
 }
 
-li {
-    padding: 10px;
-}
 
 /* -- NAVIGATION -- */
 
@@ -73,6 +70,7 @@ li {
     display: inline-block;
     font-weight: bold;
     font-size: 1.2rem;
+    padding: 10px;
 }
 
 .main-nav ul li:hover {
@@ -96,10 +94,14 @@ li {
 .social-nav ul li {
     font-size: 0.9rem;
     color: #3c1706;
+    padding: 0 10px;
+    margin: 0 5px;
+    border: 2px solid #000;
 }
 
 #mail {
     margin-right: auto;
+    border: none;
 }
 
 /* -- GALLERIE -- */
@@ -152,5 +154,3 @@ section.content {
 .test2 {
     border: 1px solid blue;
 }
-
-/* -- RESPONSIVE -- */
