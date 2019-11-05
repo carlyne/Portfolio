@@ -11,8 +11,7 @@ for (i = 0; i < cards.length; i++) {
             card.style.margin = '0';
             card.style.height = '100vh';
             card.style.order = '-1';
-
-            document.querySelector('section.content').style.flexWrap = 'wrap';
+            card.style.border = '4px solid #000';
 
             full = true;
 
@@ -21,8 +20,7 @@ for (i = 0; i < cards.length; i++) {
             card.style.margin = '';
             card.style.height = '';
             card.style.order = '';
-
-            document.querySelector('section.content').style.flexWrap = 'nowrap';
+            card.style.border = '';
 
             full = false;
         }
