@@ -78,7 +78,7 @@ ul {
     text-align: center;
 }
 
-.main-nav ul li:hover {
+.main-nav ul li:hover, #current {
     border: 3px solid #e67e4b;
     border-radius: 1px;
 }
@@ -86,7 +86,7 @@ ul {
 .social-nav {
     width: 100%;
     height: 7%;
-    background: #e67e4b;
+    background: /*#e67e4b*/ url('../Ressources/pattern-cloth_alike.png');
     display: flex;
     align-items: center;
 }
@@ -148,7 +148,7 @@ section.content {
     padding: 30px;
     position: absolute;
     display: none;
-    
+    opacity: 0.98;
 }
 
 .encart p {
@@ -170,7 +170,7 @@ section.content {
 }
 
 .project01 {
-    background-image: url('../Ressources/jean-philippe-delberghe-vlQnJZ5rOwY-unsplash.png');
+    background-image: url('../Ressources/illustration-duchesse.png');
     background-size: cover;
     background-position: center center;
 }
