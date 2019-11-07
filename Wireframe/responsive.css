@@ -4,7 +4,12 @@
     }
     
     .logo {
-        height: 60px;
+        height: 120px;
+    }
+    
+    .encart {
+        right: 40px;
+        bottom: 10px;
     }
 }
 
@@ -15,7 +20,12 @@
     }
     
     .logo {
-        height: 40px;
+        height: 80px;
+    }
+    
+    .encart {
+        right: 30px;
+        bottom: 10px;
     }
 }
 
@@ -28,6 +38,11 @@
     
     .character {
         height: 350px;
+    }
+    
+    .encart {
+        right: 20px;
+        bottom: 10px;
     }
 }
  
@@ -84,5 +99,10 @@
         height: 300px;
         flex-shrink: 0;
         margin: 10px 0;
+    }
+    
+    .encart {
+        right: 15px;
+        bottom: 10px;
     }
 }

@@ -11,9 +11,14 @@ for (i = 0; i < cards.length; i++) {
             card.style.margin = '0';
             card.style.height = '100vh';
             card.style.border = '4px solid #000';
-            card.style.position = 'fixed';
+            card.style.position = 'fixed';;
+            card.style.right = '0';
+            card.style.top = '0';
             card.style.zIndex = '100';
-
+            card.style.transform = 'translateX(1%) scale(1.01, 1.01)';
+            
+            document.querySelector('.encart').style.display = 'block';
+            
             full = true;
 
         } else if (full === true) {
@@ -22,8 +27,11 @@ for (i = 0; i < cards.length; i++) {
             card.style.height = '';
             card.style.border = '';
             card.style.position = '';
-            card.style.zIndex = '';
-
+            card.style.zIndex = '0';
+            card.style.transform = 'translateX(0) scale(1, 1)';
+            
+            document.querySelector('.encart').style.display = 'none';
+            
             full = false;
         }
     });
