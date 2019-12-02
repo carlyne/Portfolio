@@ -51,7 +51,7 @@ main {
     transition: transform 200ms ease-out;
     border-radius: 1px;
     object-position: center center;
-    box-shadow: 10px 10px 0px #000;
+    box-shadow: 8px 10px 0px #000;
 }
 
 .board img:not(.no-hover):hover {
