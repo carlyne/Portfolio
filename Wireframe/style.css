@@ -48,6 +48,11 @@ img {
     margin: 10px;
     flex-grow: 1;
     height: 350px;
+    transform: scale(1, 1);
+}
+
+img:not(.no-hover):hover {
+    transform: scale(0.95, 0.95);
 }
 
 .full-size {
@@ -57,4 +62,5 @@ img {
     top: 0;
     left: 0;
     margin: 0;
+    z-index: 90;
 }
