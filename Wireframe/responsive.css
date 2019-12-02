@@ -1,18 +1,28 @@
 @media screen and (max-width: 1300px) {
-    body {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 6fr;
+    main {
+        grid-template-columns: 100%;
+        grid-template-rows: 180px auto;
     }
-    
+
+    .menu {
+        width: 100%;
+        height: 180px;
+    }
+
     .board {
         grid-column: 1 / span 1;
-        grid-row:  2 / span 1;  
+        grid-row: 2 / span 1;
     }
 }
 
 @media screen and (max-width: 600px) {
-        body {
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 9fr;
+    main {
+        grid-template-columns: 100%;
+        grid-template-rows: 100px auto;
+    }
+    
+    .menu {
+        width: 100%;
+        height: 100px;
     }
 }
