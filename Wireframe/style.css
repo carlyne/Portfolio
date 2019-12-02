@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,14 +22,38 @@ main {
     position: relative;
 }
 
+
+/* NAVIGATION */
+
 .menu {
-    background-color: aquamarine;
+    background-image: url('../Ressources/ripples.png');
+    background-repeat: repeat;
     position: fixed;
     top: 0;
     left: 0;
     width: 25%;
     height: 100vh;
     z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* GALLERIE */
+
+.board img {
+    object-fit: cover;
+    margin: 10px;
+    flex-grow: 1;
+    height: 350px;
+    transform: scale(1, 1);
+}
+
+.board img:not(.no-hover):hover {
+    transform: scale(0.95, 0.95);
 }
 
 .board {
@@ -43,24 +69,12 @@ main {
     align-items: stretch;
 }
 
-img {
-    object-fit: cover;
-    margin: 10px;
-    flex-grow: 1;
-    height: 350px;
-    transform: scale(1, 1);
-}
-
-img:not(.no-hover):hover {
-    transform: scale(0.95, 0.95);
-}
-
 .full-size {
-    height: 100vh;
+    height: 100vh !important;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    margin: 0;
+    margin: 0 !important;
     z-index: 90;
 }
