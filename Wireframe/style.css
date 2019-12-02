@@ -17,7 +17,6 @@ body {
     margin: 0 auto;
     background: url('../Ressources/so-white.png');
     background-repeat: repeat;
-    /*linear-gradient(to bottom, hsla(6, 74%, 57%, 0.9), hsla(6, 74%, 43%, 0.9))*/
 
 
 }
@@ -53,8 +52,42 @@ h1 {
     justify-content: space-around;
 }
 
+ul {
+    list-style: none;
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    width: 40px;
+    padding: 5px;
+    margin: 0 10px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
 
 /* GALLERIE */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 95px;
+    width: 75%;
+    position: fixed;
+    top: 0;
+    left: 25%;
+    padding: 10px;
+    z-index: 70;
+    background: #fff;
+}
+
+header p {
+    padding: 20px 10px;
+    font-size: 1.1rem;
+}
 
 .board img {
     object-fit: cover;
@@ -69,7 +102,7 @@ h1 {
 
 .board img:not(.no-hover):hover {
     transform: scale(0.98, 0.98);
-    box-shadow: 8px 8px 0px #111;
+    box-shadow: 8px 8px 0px #e26c31;
 }
 
 .board {
@@ -85,6 +118,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
+    margin-top: 95px;
 }
 
 .full-size {
