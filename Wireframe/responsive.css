@@ -1,108 +1,18 @@
-@media only screen and (max-width: 1920px) { 
-    .character {
-        height: 550px;
+@media screen and (max-width: 1300px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 6fr;
     }
     
-    .logo {
-        height: 120px;
-    }
-    
-    .encart {
-        right: 40px;
-        bottom: 10px;
+    .board {
+        grid-column: 1 / span 1;
+        grid-row:  2 / span 1;  
     }
 }
 
-
-@media only screen and (max-width: 1536px) { 
-    .character {
-        height: 400px;
-    }
-    
-    .logo {
-        height: 80px;
-    }
-    
-    .encart {
-        right: 30px;
-        bottom: 10px;
-    }
-}
-
-
-@media only screen and (max-width: 1280px) {
-    .main-nav ul li {
-        font-size: 1rem;
-        padding: 0 5px;
-    }
-    
-    .character {
-        height: 350px;
-    }
-    
-    .encart {
-        right: 20px;
-        bottom: 10px;
-    }
-}
- 
-    
-@media only screen and (max-width: 992px) {
-    main {
-        flex-direction: column;
-    }
-
-    .navigation {
-        width: 100%;
-        height: 120px;
-        flex-direction: row;
-    }
-    
-    section.content {
-        width: 100%;
-        height: auto;
-        margin-top: 120px;
-    }
-
-    .home {
-        flex-direction: row;
-        height: 100%;
-        width: 100%;
-    }
-
-    .character {
-        padding-top: 105px;
-        height: 450px;
-    }
-
-    .main-nav ul li {
-        font-size: 1rem;
-    }
-
-    .social-nav {
-        display: none;
-    }
-}
-
-
-@media only screen and (max-width: 768px) {
-    .character {
-        display: none;
-    }
-    
-    .content {
-        flex-wrap: wrap;
-    }
-    
-    .card {
-        width: 100%;
-        height: 300px;
-        flex-shrink: 0;
-        margin: 10px 0;
-    }
-    
-    .encart {
-        right: 15px;
-        bottom: 10px;
+@media screen and (max-width: 600px) {
+        body {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 9fr;
     }
 }
