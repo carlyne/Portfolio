@@ -17,8 +17,6 @@ body {
     margin: 0 auto;
     background: url('../Ressources/pattern.png');
     background-repeat: repeat;
-
-
 }
 
 main {
@@ -63,7 +61,10 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background: url('../Ressources/test%20pattern.png');
+    background-size: 80%;
+    background-repeat: repeat;
 }
 
 #logo-mobile {
