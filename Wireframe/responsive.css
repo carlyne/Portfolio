@@ -97,4 +97,14 @@
         font-size: 0.9rem;
     }
 
+    #info {
+        width: 100%;
+        z-index: 90;
+        display: none;
+        border-radius: 1px;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+    }
+
 }
