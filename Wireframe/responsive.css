@@ -1,15 +1,30 @@
 @media screen and (max-width: 1300px) {
     main {
         grid-template-columns: 100%;
-        grid-template-rows: 150px auto;
+        grid-template-rows: 200px auto;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
     }
 
     .menu {
         width: 100%;
-        height: 150px;
+        height: 200px;
         flex-direction: row;
-        justify-content: flex-start;
-        background-color: #e26c31;
+        justify-content: space-between;
+        background-color: #fff;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    ul {
+        order: 3;
+    }
+    
+    #logo {
+        width: 150px;
+        order: 2;
     }
 
     .board {
@@ -20,17 +35,18 @@
     header {
         height: 80px;
         width: 100%;
-        top: 150px;
+        top: 200px;
         left: 0;
     }
 
     #nav-gif {
-        display: none;
+        width: 135px;
+        order: 1;
     }
 
     .full-size {
         width: 100%;
-        top: 150px;
+        top: 200px;
         left: 0;
     }
 
@@ -66,6 +82,10 @@
 
     #logo {
         width: 100px;
+    }
+    
+    #nav-gif {
+        display: none;
     }
 
     h1 {
