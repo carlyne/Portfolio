@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background: url('../Ressources/so-white.png');
+    background: url('../Ressources/pattern.png');
     background-repeat: repeat;
 
 
@@ -89,7 +89,8 @@ header {
     left: 25%;
     padding: 10px;
     z-index: 70;
-    background: #fff;
+    background: url('../Ressources/pattern.png');
+    background-repeat: repeat;
 }
 
 header p {

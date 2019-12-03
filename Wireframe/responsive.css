@@ -3,7 +3,7 @@
         grid-template-columns: 100%;
         grid-template-rows: 200px auto;
     }
-    
+
     h1 {
         font-size: 1.5rem;
     }
@@ -13,15 +13,16 @@
         height: 200px;
         flex-direction: row;
         justify-content: space-between;
-        background-color: #fff;
+        background: url('../Ressources/pattern.png');
+        background-repeat: repeat;
         align-items: center;
         overflow: hidden;
     }
-    
+
     ul {
         order: 3;
     }
-    
+
     #logo {
         width: 150px;
         order: 2;
@@ -83,7 +84,7 @@
     #logo {
         width: 100px;
     }
-    
+
     #nav-gif {
         display: none;
     }
