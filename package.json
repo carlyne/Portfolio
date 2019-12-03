@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Site Perso",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "yion": "^1.3.2"
+  },
+  "publish": {
+    "ssh": {
+      "ip": "beelab.tk",
+      "user": "root",
+      "port": 23
+    },
+    "image": "node:latest",
+    "options": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlyne/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlyne/portfolio/issues"
+  },
+  "homepage": "https://github.com/carlyne/portfolio#readme"
+}
