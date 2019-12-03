@@ -121,6 +121,19 @@ header p {
     position: relative;
 }
 
+#info {
+    width: 700px;
+    background-color: #e26c31;
+    padding: 15px;
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 90;
+    display: none;
+    border-radius: 1px;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -138,4 +151,25 @@ header p {
     left: 25%;
     margin: 0 !important;
     z-index: 80;
+}
+
+.animation {
+    animation-name: slide;
+    animation-duration: 1000ms;
+    animation-fill-mode: both;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(250px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
